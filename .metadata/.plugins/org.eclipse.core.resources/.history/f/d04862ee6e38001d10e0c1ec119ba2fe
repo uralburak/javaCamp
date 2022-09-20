@@ -1,0 +1,24 @@
+package miniProjeAsalSayi;
+
+public class miniProjeAsalSayi {
+
+	public static void main(String[] args) {
+		int number=20;
+		int remainder = number % 2;
+		
+		
+		int i,result;
+		for (i = 2; i < number; i++) {
+					
+			if(number % i == 0) {
+				System.out.println("number asal sayi deðildir.");
+			}
+			else {
+				System.out.println("number bir asal sayidir.");
+			}
+			
+		}
+		
+	}
+
+}

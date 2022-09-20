@@ -1,0 +1,15 @@
+package datatypes;
+
+public class datatypes {
+
+	public static void main(String[] args) {
+		byte sayi=12; //byte=128 ile 127 arasındaki sayıları tutabilir.
+		int  sayi2=10; //int=-2 milyar ile +2 milyar arası değer tutabilir. 4 bytes yer tutar.
+		double sayi3=12.6;
+		char harf='A';
+		boolean dogruMu=false;
+		
+		
+	}
+
+}

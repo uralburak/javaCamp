@@ -1,0 +1,22 @@
+package loopDemo;
+
+public class loopDemo {
+
+	public static void main(String[] args) {
+		System.out.println("1den 9a kadar olan sayýlarýn yazýmý:");
+		for(int i=1;i<10;i++) {
+			System.out.println(i);
+		}
+		System.out.println("10a kadar bulunan çift rakamlar:");
+		for(int i=2;i<10;i+=2) {
+			System.out.println(i);
+		}
+		System.out.println("for döngüsü bitti.");
+		//while
+		
+		while (int i<10) {
+			System.out.println(i);
+		}
+	}
+
+}
